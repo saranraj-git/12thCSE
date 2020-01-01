@@ -22,7 +22,7 @@ Insert into employee values(3227, 'Rekha', 'Officer', 'Admin', 34, 'Salem');
 Alter table employee add(doj date);
 
 -- Inserting date of joining to each employee:
-update employee set doj = '21-03-2010' where empno=1221;
+update employee set doj = '2010-03-20' where empno=1221;
 update employee set doj = '13-05-2012' where empno=1222;
 update employee set doj = '25-10-2017' where empno=1223;
 update employee set doj = '17-06-2018' where empno=1224;

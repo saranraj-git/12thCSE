@@ -56,6 +56,13 @@ S.execute()
 S.display()
 
 '''
+Step 1 : Create a class 
+Step 2 : Create methods inside the class
+Step 3 : Create an object for the class
+Step 4 : Using the object, call the methods inside the object
+
+Self is the reference for its own Class object 
+
 Output:
 Enter a string: How is This PROGRAM dudes
 The given string contains...
