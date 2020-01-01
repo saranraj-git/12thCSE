@@ -54,3 +54,15 @@ S = String()
 S.getstr()
 S.execute()
 S.display()
+
+'''
+Output:
+Enter a string: How is This PROGRAM dudes
+The given string contains...
+9 Upper case letters
+12 Lower case letters
+7 Vowels
+18 consonants
+4 Spaces
+
+'''
