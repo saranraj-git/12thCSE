@@ -2,9 +2,9 @@ import sqlite3
 connection = sqlite3.connect("info.db")
 cursor = connection.cursor()
 #cursor.execute("DROP Table student")
-cursor.execute("create table student(name, age)")
+cursor.execute("create table student1(name, age)")
 print("Enter 10 students names and their ages respectively:")
-for i in range(10):
+for i in range(3):
     who =[input("Enter Name:")]
     age =[int(input("Enter Age:"))]
     n =len(who)
